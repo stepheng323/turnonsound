@@ -10,6 +10,8 @@
 
 .card_logo{
 	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 .card_container {
 	display: flex;

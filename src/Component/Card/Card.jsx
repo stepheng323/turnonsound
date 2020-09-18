@@ -14,7 +14,7 @@ function Card() {
           <p className="card_info_number">159</p>
         </div>
       </div>
-      <ExpandMoreIcon className="card_button" />
+      <ExpandMoreIcon style={{ color: 'black', fontWeight: 'bold', zIndex: '999', marginTop: '-1.6em' }} className="card_button" />
     </div>
   );
 }

@@ -35,14 +35,10 @@
 .card_button {
   width: 50px;
 	background-color: #7c76bb;
-	opacity: 0.07;
+	opacity: 0.1;
 	mix-blend-mode: normal;
 	border-radius: 50%;
 	cursor: pointer;
-	color: black;
+	z-index: 100;
 }
-@media (max-width: 940px) {
-	.container {
-		grid-template-columns: 1fr;
-	}
-}
+

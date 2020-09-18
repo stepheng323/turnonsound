@@ -18,8 +18,8 @@ function Header() {
       </div>
 
       <div className="header_input">
-        <SearchIcon style={{ padding: '0.3em' }} />
-        <input type="search" placeholder="search for songs, album, playlist" />
+        <SearchIcon style={{marginLeft: '8px'}} />
+        <input type="search" placeholder="Search for songs, album, playlist" />
       </div>
 
       <div className="header_icons">
