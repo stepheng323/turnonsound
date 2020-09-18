@@ -18,7 +18,7 @@ function Header() {
       </div>
 
       <div className="header_input">
-        <SearchIcon style={{marginLeft: '8px'}} />
+        <SearchIcon  style={{marginLeft: '8px', color: 'grey'}} />
         <input type="search" placeholder="Search for songs, album, playlist" />
       </div>
 
