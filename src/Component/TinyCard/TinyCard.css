@@ -1,0 +1,24 @@
+.tiny_card {
+	height: 70px;
+	width: 70px;
+	border-radius: 15px;
+	background: linear-gradient(180deg, #ffeae3 0%, #ffd0c2 100%);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.rectangle {
+	width: 60%;
+	height: 30%;
+	border: 1px solid black;
+	display: flex;
+	justify-content: center;
+}
+
+.circle {
+	width: 50%;
+	height: 90%;
+	border-radius: 50%;
+	border: 1px solid black;
+}

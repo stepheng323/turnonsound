@@ -1,0 +1,10 @@
+.app{
+  background-color: #FAFAFA;
+}
+.app_page{
+  display: flex;
+}
+
+.blue{
+  color: #04B6DD
+}

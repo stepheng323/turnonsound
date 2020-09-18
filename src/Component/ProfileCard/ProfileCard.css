@@ -1,0 +1,61 @@
+.person {
+	margin-top: 3.5em;
+	background-color: #fff;
+	border-radius: 30px;
+	box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0.5em 1em;
+	height: 280px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.avatar {
+	/* margin-top: 1em; */
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.avatar > p {
+	font-weight: 600;
+	font-size: 18px;
+	margin-top: 0.8em;
+	line-height: 14px;
+	color: #3e3e3e;
+}
+
+.stats {
+	margin-top: 3em;
+	display: flex;
+	justify-content: stretch;
+	align-items: center;
+}
+.follows {
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 5em;
+  font-size: 11px;
+ line-height: 14px;
+
+letter-spacing: 1px;
+
+}
+.following {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  font-size: 11px;
+ line-height: 14px;
+letter-spacing: 1px;
+}
