@@ -6,18 +6,16 @@ import './SideBar.css';
 
 function SideBar() {
   return (
-    <>
-      <div className="side_bar">
-        <div className="profile">
-          <Profile />
-        </div>
-
-        {/* <div className="play">
-          <Play />
-        </div> */}
-
+    <div className="side_bar">
+      <div className="profile">
+        <Profile />
       </div>
-    </>
+      <div className="play_section">
+        <h3>Now Playing</h3>
+        <Play />
+      </div>
+
+    </div>
   );
 }
 
